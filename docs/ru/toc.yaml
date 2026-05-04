@@ -1,35 +1,73 @@
-title: LogiCorePlatform 
+title: Пользовательские пути LCP
 href: index.yaml
-items: 
-  - name: О платформе
-    href: about.md 
-  - name: Начало работы
-    items:
-      - name: Навигация и структура
-        href: navigation_and_struct.md       
-      - name: Пользователи и роли
-        href: users_and_roles.md
-      - name: C чего начать?
-        href: how_to_start.md    
-  - name: Практические руководства
+items:  
+  - name: 01 Управление контрагентами
     items: 
-      - name: Элементы управления
+      - name: Описание
+        href: counterparty_create.md  
+      - name: BPMN-схема
+        href: counterparty_create_bpmn.md
+      - name: Интерфейс
+        href: counterparty_create_interface.md
+  - name: 02 Управление операционной деятельностью
+    items: 
+      - name: 02.01 Поручение
         items:
-        - name: Поручение
-          href: how_to_assignment.md  
-        - name: Заказ
-          href: how_to_request.md              
-        - name: Заявка
-          href: how_to_task.md 
-      - name: Справочники
+          - name: Описание
+            href: assignment_create.md  
+          - name: BPMN-схема
+            href: assignment_create_bpmn.md
+          - name: Интерфейс
+            href: assignment_create_interface.md
+      - name: 02.02 Заказ
         items:
-        - name: Типов оборудования 
-          href: types_of_equipment.md 
-        - name: Групп номенклатур
-          href: nomenc.md
-        - name: Контрагентов
-          href: how_to_counterparty.md       
-        - name: Пространств 
-          href: how_to_space.md     
-  - name: Глоссарий
-    href: glossary.md 
+          - name: Описание
+            href: order_create.md  
+          - name: BPMN-схема
+            href: order_create_bpmn.md
+          - name: Интерфейс
+            href: order_create_interface.md
+  - name: 03 Управление справочной информацией
+    items: 
+      - name: 03.01 Пространство
+        items:
+          - name: Описание
+            href: space_create.md  
+          - name: BPMN-схема
+            href: space_create_bpmn.md
+          - name: Интерфейс
+            href: space_create_interface.md
+      - name: 03.02 Группа номенклатур
+        items:
+          - name: Описание
+            href: group_nomenc_create.md  
+          - name: BPMN-схема
+            href: group_nomenc_create_bpmn.md
+          - name: Интерфейс
+            href: group_nomenc_create_interface.md
+      - name: 03.03 Номенклатура
+        items:
+          - name: Описание
+            href: nomenc_create.md  
+          - name: BPMN-схема
+            href: nomenc_create_bpmn.md
+          - name: Интерфейс
+            href: nomenc_create_interface.md 
+  - name: 04 Складская логистика
+    items: 
+      - name: 04.01 Поступление товара
+        items:
+          - name: Описание
+            href: goods_plus_create.md  
+          - name: BPMN-схема
+            href: goods_plus_create_bpmn.md
+          - name: Интерфейс
+            href: goods_plus_create_interface.md
+      - name: 04.02 Списание товара
+        items:
+          - name: Описание
+            href: goods_minus_create.md  
+          - name: BPMN-схема
+            href: goods_minus_create_bpmn.md
+          - name: Интерфейс
+            href: goods_minus_interface.md
